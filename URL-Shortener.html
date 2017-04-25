@@ -1,0 +1,20 @@
+<head>
+    <center>
+        <h4>Lachlan Young's</h4>
+        <h1>URL SHORTENER</h1>
+        <br>
+    </center>
+</head>
+<body>
+    {{> checkURL}}
+    {{> URLShortener}}
+</body>
+<template name="URLShortener">
+    <center><form>
+        <input type="text" name="URLEntered">
+        <input type="submit">
+    </form></center>
+</template>
+<template name="checkURL">
+    {{check}}
+</template>
